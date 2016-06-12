@@ -1,10 +1,8 @@
 package cs3500.music.tests;
 
 import org.junit.Test;
-
 import cs3500.music.model.Note;
 import cs3500.music.model.NoteEnum;
-
 import static org.junit.Assert.assertEquals;
 
 public class NoteTest {
