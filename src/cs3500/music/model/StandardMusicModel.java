@@ -52,7 +52,7 @@ public class StandardMusicModel extends AMusicModel{
 
   @Override
   public String toString() {
-    BeatViewerString bvs = new BeatViewerString(this.beats, this.getLowestOctave(),
+    AMusicModelViewer bvs = new AMusicModelViewer(this.beats, this.getLowestOctave(),
             this.getHighestOctave());
     for (Iterator<Integer> i = this.octaves.keySet().iterator();
          i.hasNext();) {
