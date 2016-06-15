@@ -13,6 +13,16 @@ import javax.swing.*;
  */
 public class ConcreteGuiViewPanel extends JPanel {
 
+  private int barPos;
+
+  public ConcreteGuiViewPanel() {
+    this.barPos = 0;
+  }
+
+  public void moveBar() {
+    this.barPos++;
+  }
+
   @Override
   public void paintComponent(Graphics g){
     // Handle the default painting

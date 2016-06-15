@@ -11,11 +11,8 @@ public class Driver {
 
     GuiViewFrame frame = new GuiViewFrame();
 
-
     ConcreteGuiViewPanel gui = new ConcreteGuiViewPanel();
 
-
     frame.setVisible(true);
-
   }
 }
